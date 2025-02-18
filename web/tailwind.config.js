@@ -1,20 +1,21 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    './src/**/*.tsx',
-    'index.html'
+    "./App.{js,jsx,ts,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {
       colors: {
-        background: '#09090A'
+        background: '#09090a',
       },
-
-      gridTemplateRows: {
-        7: 'repeat(7, minmax(0, 1fr))'
-      },
+      fontFamily: {
+        regular: 'Inter_400Regular',
+        semibold: 'Inter_600SemiBold',
+        bold: 'Inter_700Bold',
+        extrabold: 'Inter_800ExtraBold'
+      }
     },
   },
   plugins: [],
 }
-
