@@ -1,4 +1,4 @@
-import './styles/global.css';
+import "../styles/global.css";
 import { Plus } from "phosphor-react";
 
 import logoImage from '../assets/logo.svg';
