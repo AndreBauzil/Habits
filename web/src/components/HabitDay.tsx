@@ -7,6 +7,7 @@ interface HabitDayProps {
     amount: number;
 }
 
+
 export function HabitDay({ completed, amount }: HabitDayProps) {
     const completedPercentage = Math.round((completed / amount) * 100)
 
