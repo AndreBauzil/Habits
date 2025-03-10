@@ -4,7 +4,7 @@ import colors from "tailwindcss/colors";
 
 interface Props {
     title: string;
-    checked: boolean;
+    checked?: boolean;
 }
 
 export function Checkbox({ title, checked = false }: Props) {
