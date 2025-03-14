@@ -1,7 +1,7 @@
+
 interface ProgressBarProps {
     progress: number;
 }
-
 
 export function ProgressBar(props: ProgressBarProps) {
   return (
