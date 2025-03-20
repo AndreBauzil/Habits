@@ -9,7 +9,7 @@
 <br>
 <br>
 
-# Habitto.life 💪
+# Habits 💪
 
 ## 🧪 Technologies
 
